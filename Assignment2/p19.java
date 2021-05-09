@@ -1,0 +1,19 @@
+class p19
+{
+	public static void main(String arags[])
+	{
+		for (int i = 1; i <=5 ; i++)   
+		{  
+			int a = 64;   
+			for (int j = 5; j > i; j--)  
+			{  
+				System.out.print(" ");  
+			}  
+			for (int k = 1; k <= i; k++)  
+			{  
+				System.out.print((char) (a + k) + " ");  
+			}  
+		System.out.println();  
+		} 
+	}
+}
